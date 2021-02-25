@@ -1,0 +1,15 @@
+<div>
+    <div>{{form.value|json}}</div>
+    <form class="contact-edit simple-form" #form="ngForm" (ngSubmit)="submitForm(form.value)">
+        <label>Name:</label>
+        <input required autoFocus type="text" [ngModel]="contactToEdit.name" class="input input-editor" name="name" />
+        <label>Email:</label>
+        <input required type="email" [ngModel]="contactToEdit.email" class="input input-editor" name="email"  />
+        <label>Phone:</label>
+        <input required type="tel" class="input input-editor" [ngModel]="contactToEdit.phone" name="phone"  />
+        <input type="id" class="input input-editor" [ngModel]="contactToEdit._id" name="_id" hidden/>
+        <span class="form-errors">{{errMsg}}</span>
+        <!-- <pre>{{contactJson}}</pre> -->
+        <button class="btn-grad">Save</button>
+    </form>
+</div>

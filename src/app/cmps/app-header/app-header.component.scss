@@ -1,0 +1,32 @@
+.app-header-nav {
+    background: #420644;
+    z-index: 999;
+    color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    .main-nav {
+        height: 65px;
+        width: 100%;
+
+        font-size: 20px;
+        padding: 0 30px;
+        max-height: 65px;
+
+        .btn-controls {
+            a {
+                color: white;
+            }
+            > *:not(:last-child) {
+                margin-right: 20px;
+            }
+        }
+        .active {
+            font-weight: 600;
+            color: rgba(242, 242, 242, 0.9);
+        }
+        .curr-page {
+            font-weight: bolder;
+            color: rgb(24, 24, 24);
+        }
+    }
+}

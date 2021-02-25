@@ -1,0 +1,18 @@
+<section *ngIf="user||bitcoinRate" class="home-page flex column wrap align-center justify-center ">
+
+<div class="user-container-details flex column wrap align-center">
+    <div class="user-container flex align-center justify-center">
+        <div class="profile-container  ">
+            <img class="profile-img" src="https://robohash.org/{{user._id}}?set=set5" alt="profile" />
+        </div>
+        <h1>Hello , {{user.name}}</h1>
+       
+    </div>
+    <p class="flex align-center"><img src="../../../assets/icons/coins.png" alt="coins icon" /> <span class="bolder"> Total coins:</span> {{user.coins}}$ </p>
+    <p class="flex align-center"><img src="../../../assets/icons/bitcoin.png" alt="bitcoin icon" /><span class="bolder">Bitcoin rate:</span> {{bitcoinRate}}</p>
+    <p class="flex align-center"><img src="../../../assets/icons/coins.png" alt="coins icon" /><span class="bolder">Your Bitcoin Money:</span> {{moneyBitcoin}} </p>
+    <div class="image">
+        <img src="../../../assets/icons/bitcoin.png" alt="">
+    </div>
+</div>
+</section>

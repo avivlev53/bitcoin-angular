@@ -1,0 +1,65 @@
+.home-page {
+    .user-container-details {
+        height: 100vh;
+        // color: white;
+        letter-spacing: 1px;
+        background: #E5E9EF;
+        color: #8b578b;
+        // background: #E8D5B5;
+        // background: linear-gradient(4deg, rgba(169,53,175,1) 0%, rgba(116,9,121,1) 12%, rgba(43,4,45,1) 100%);
+        // background-color: #274aa7;
+        padding: 50px 0;
+        width: 100%;
+        border-bottom: 1px solid #eeeeeecf;
+       display: flex;
+        .user-container {
+            
+            margin-bottom: 11px;
+            .profile-container {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                border: 1px solid #b9b9b9c4;
+                box-shadow: 0px 0 4px 0px #0000008a;
+                background: white;
+                border-radius: 50%;
+                height: 40px;
+                margin-right: 5px;
+                width: 40px;
+            }
+            h1 {
+                font-size: 35px;
+                text-transform: capitalize;
+                font-weight: bolder;
+                align-self: flex-end;
+                text-shadow: 1px 1px 0px #3c3e43;
+            }
+        }
+    }
+    img {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    h5 {
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        margin: 6px 0;
+        letter-spacing: 1px;
+        font-size: 1rem;
+    }
+    > * {
+        display: flex;
+        align-items: center;
+    }
+}
+.image{
+    height: 150px;
+    width: 150px;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}

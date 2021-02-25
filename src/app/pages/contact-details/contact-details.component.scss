@@ -1,0 +1,44 @@
+
+.contact-details {
+    height: 100vh;
+    & div{
+        padding: 5rem;
+        width:60%;
+        margin: 0 auto;
+        background-color: rgb(179, 157, 184);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 1.1rem;
+        h3,h2 {
+            margin-bottom: 10px;
+        }
+        h2{
+            font-weight:600;
+        }
+        span{
+            font-weight:600;
+            // text-decoration: underline;
+        }
+        button{
+            margin: 10px;
+            font-size: 1rem;
+        }
+        img[src*="robohash"]{
+            width: 200px;
+            margin-bottom: 2rem;
+        }
+        // .contact-container{
+        //     height: 520px;
+        //     margin-right: 12rem;
+        //     *{
+        //         letter-spacing: 0.5px;
+        //         padding: 5px;
+        //         font-size: 2rem;
+        //         margin-bottom: 5px;
+        //     }
+        // }
+        // .contact-transfer{
+        //     height: 520px;
+    
+        // }
+    }
+}

@@ -1,0 +1,10 @@
+<section *ngIf="marketPrice ||avgBlock ||trance" class="static-page flex column center-center">
+   <h2>market price</h2>
+    <chart [data]="marketPrice" ></chart>
+   <h2>avg block</h2>
+
+    <chart [data]="avgBlock" ></chart>
+   <h2>avg block</h2>
+
+    <chart [data]="trance" ></chart>
+</section>

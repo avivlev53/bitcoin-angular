@@ -1,0 +1,10 @@
+<section class="contact-details">
+    <div class="flex column justify-center align-center">
+        <img src="https://robohash.org/{{contact._id}}?set=set5" alt="profile" />
+        <h2>{{contact.name}} </h2>
+        <h3> <span>Phone:</span> {{contact.phone}}</h3>
+        <h3> <span>Email:</span> {{contact.email}}</h3>
+        <button class="btn-grad" (click)="goBack()">Go back</button>
+        <button class="btn-grad" (click)="editContact(contact._id)">Edit</button>
+    </div>
+</section>

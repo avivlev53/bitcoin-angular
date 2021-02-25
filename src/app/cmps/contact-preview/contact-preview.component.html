@@ -1,0 +1,12 @@
+<li (click)="goToDetails(contact._id)" class="contact-preview flex flex  align-center space-between">
+  <div class="contact-container flex align-center">
+
+    <img class="profile-img" [src]="'https://robohash.org/'+contact._id+'?set=set5'">
+    <h3>
+      {{contact.name}}
+    </h3>
+  </div>
+  <div class="btn-controls flex wrap">
+
+  </div>
+</li>
